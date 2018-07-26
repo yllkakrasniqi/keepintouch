@@ -26,11 +26,11 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-.form .yllka {
+.form button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #F36363;
+  background: #833d3b;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -49,7 +49,7 @@
   font-size: 12px;
 }
 .form .message a {
-  color: #F36363;
+  color: #a96d71;
   text-decoration: none;
 }
 .form .register-form {
@@ -71,7 +71,7 @@
   text-align: center;
 }
 .container .info h1 {
-  margin: 0 0 16px;
+  margin: 0 0 15px;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
@@ -89,7 +89,11 @@
   color: #EF3B3A;
 }
 body {
-  background: #cfd8dc;
+  background: #833d3b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #833d3b, #833d3b);
+  background: -moz-linear-gradient(right, #833d3b, #833d3b);
+  background: -o-linear-gradient(right, #833d3b,#833d3b);
+  background: linear-gradient(to left, #833d3b, #833d3b);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
