@@ -499,9 +499,8 @@
 	position:absolute;
 	width:108px;
 	z-index:0;
-	background: #F36363;
-  color: #fff;
-  border: 2px solid #F36363;
+	color:#F36363;
+	
 }
 .contact-forms .prepend-small-btn .upload-btn input,
 .contact-forms .prepend-big-btn .upload-btn input { left:0; }
@@ -584,7 +583,9 @@
 .contact-forms .primary-btn,
 .contact-forms .upload-btn,
 .contact-forms .secondary-btn {
-	background:#f99104;
+	background: #F36363;
+  color: #fff;
+  border: 2px solid #F36363;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -597,7 +598,7 @@
 
 .contact-forms .primary-btn:hover.processing { background:#303f9f; cursor:wait; }
 
-.contact-forms .upload-btn:hover + input { border:1px solid rgb(76, 194, 196); }
+.contact-forms .upload-btn:hover + input { border:1px solid rgb(247,161,161); }
 
 .contact-forms .secondary-btn,
 .contact-forms .secondary-btn,

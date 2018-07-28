@@ -191,9 +191,7 @@ p.copy_rights a:hover{
 	}
 	.contact-forms .upload-btn {
 		padding: 5px 0;
-		 background: #F36363;
-  color: #fff;
-  border: 2px solid #F36363;
+		 
 	}	
 }
 @media (max-width: 375px){
