@@ -499,7 +499,9 @@
 	position:absolute;
 	width:108px;
 	z-index:0;
-	color:#757575;
+	background: #F36363;
+  color: #fff;
+  border: 2px solid #F36363;
 }
 .contact-forms .prepend-small-btn .upload-btn input,
 .contact-forms .prepend-big-btn .upload-btn input { left:0; }
